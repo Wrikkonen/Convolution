@@ -42,6 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				832FC8F6229F652600C183C6 /* Convolution */,
+				832FC8FE229F653400C183C6 /* Data */,
 				832FC8F5229F652600C183C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,6 +61,13 @@
 				832FC8F7229F652600C183C6 /* main.c */,
 			);
 			path = Convolution;
+			sourceTree = "<group>";
+		};
+		832FC8FE229F653400C183C6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
