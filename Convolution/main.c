@@ -216,7 +216,6 @@ void zconvo(double *reh, double *imh,
 		indexf = normalize(ofsf+j, 0, n-1);
 		sum += ref[indexf];
 	}
-	printf("sum = %f\n", sum);
 	// 畳み込み積分（コンボリューション）を計算する
 	ofsf = n/2 - m/2;
 	for (i = 0; i < n; i++) {
